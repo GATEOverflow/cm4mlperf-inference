@@ -8,7 +8,7 @@ This experiment is generated using the [MLCommons Collective Mind automation fra
 * CPU version: x86_64
 * Python version: 3.8.10 (default, Sep 11 2024, 16:02:53) 
 [GCC 9.4.0]
-* MLCommons CM version: 3.2.9
+* MLCommons CM version: 3.3.4
 
 ## CM Run Command
 
@@ -19,7 +19,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=82c6af20bf4b338f05c9b3289fb2524d31bac694
+cm pull repo gateoverflow@cm4mlops --checkout=244952d648e67f0aaa9483d08d78267f9944f463
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_nvidia,_sdxl,_tensorrt,_test,_r4.1-dev_default,_float16,_offline \
@@ -58,6 +58,7 @@ cm run script \
 	--env.CM_MLPERF_LOADGEN_MODES,=performance,accuracy \
 	--env.CM_OUTPUT_FOLDER_NAME=test_results \
 	--env.CM_DOCKER_REUSE_EXISTING_CONTAINER=no \
+	--env.CM_DOCKER_DETACHED_MODE=yes \
 	--add_deps_recursive.get-mlperf-inference-results-dir.tags=_version.r4_1-dev \
 	--add_deps_recursive.get-mlperf-inference-submission-dir.tags=_version.r4_1-dev \
 	--add_deps_recursive.mlperf-inference-nvidia-scratch-space.tags=_version.r4_1-dev \
@@ -91,8 +92,8 @@ Platform: arjun_spr-nvidia_original-gpu-tensorrt-vdefault-scc24-base
 Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `16.62979`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `232.37093`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `16.63198`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `232.06945`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `1.14043`
+`Samples per second`: `1.13875`
