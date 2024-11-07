@@ -22,7 +22,7 @@
   "host_processor_interconnect": "",
   "host_processor_model_name": "Intel(R) Xeon(R) w7-2495X",
   "host_processors_per_node": "1",
-  "host_storage_capacity": "6.9T",
+  "host_storage_capacity": "11T",
   "host_storage_type": "SSD",
   "hw_notes": "",
   "number_of_nodes": "1",
@@ -31,7 +31,7 @@
   "status": "available",
   "submitter": "MLCommons",
   "sw_notes": "Automated by MLCommons CM v3.2.6. ",
-  "system_name": "c9bb702fdb4a",
+  "system_name": "326a756ccd44",
   "system_type": "datacenter",
   "system_type_detail": "edge server"
 }

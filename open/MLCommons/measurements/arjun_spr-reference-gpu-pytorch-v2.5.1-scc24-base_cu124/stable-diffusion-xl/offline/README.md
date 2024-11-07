@@ -18,7 +18,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=ea39555bb4231038de51e1e33812dee952b946aa
+cm pull repo gateoverflow@cm4mlops --checkout=58a2259330bf902d2b314d2d1bdaeb53706e9ed1
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_reference,_sdxl,_pytorch,_cuda,_test,_r4.1-dev_default,_float16,_offline \
@@ -44,7 +44,8 @@ cm run script \
 	--env.CM_MLPERF_SUT_NAME_RUN_CONFIG_SUFFIX4=scc24-base \
 	--env.CM_DOCKER_IMAGE_NAME=scc24-reference \
 	--env.CM_MLPERF_LOADGEN_ALL_MODES=yes \
-	--env.CM_MLPERF_LAST_RELEASE=v4.1 \
+	--env.CM_MLPERF_INFERENCE_SOURCE_VERSION=4.1.23 \
+	--env.CM_MLPERF_LAST_RELEASE=v4.0 \
 	--env.CM_TMP_CURRENT_PATH=/home/arjun/actions-runner/_work/cm4mlops/cm4mlops \
 	--env.CM_TMP_PIP_VERSION_STRING= \
 	--env.CM_MODEL=sdxl \
@@ -65,6 +66,7 @@ cm run script \
 	--add_deps_recursive.coco2014-preprocessed.tags=_size.50,_with-sample-ids \
 	--add_deps_recursive.coco2014-dataset.tags=_size.50,_with-sample-ids \
 	--add_deps_recursive.nvidia-preprocess-data.extra_cache_tags=scc24-base \
+	--add_deps_recursive.inference-src.tags=_branch.dev \
 	--v=False \
 	--print_env=False \
 	--print_deps=False \
@@ -94,4 +96,4 @@ Model Precision: fp32
 `FID_SCORE`: `237.82579`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `0.383508`
+`Samples per second`: `0.383039`
