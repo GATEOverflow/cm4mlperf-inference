@@ -19,7 +19,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=244952d648e67f0aaa9483d08d78267f9944f463
+cm pull repo gateoverflow@cm4mlops --checkout=0c68370bc2eabd88241b561bf663d9c166eccd20
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_nvidia,_sdxl,_tensorrt,_test,_r4.1-dev_default,_float16,_offline \
@@ -92,8 +92,8 @@ Platform: arjun_spr-nvidia_original-gpu-tensorrt-vdefault-scc24-base
 Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `16.63198`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `232.06945`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `16.68664`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `233.38096`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `1.13875`
+`Samples per second`: `1.13881`
