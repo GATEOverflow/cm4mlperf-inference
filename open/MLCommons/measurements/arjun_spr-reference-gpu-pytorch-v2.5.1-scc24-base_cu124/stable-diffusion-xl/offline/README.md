@@ -18,7 +18,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=a24b7a89e94d86b17f79d33d59fa83ef4f66d391
+cm pull repo gateoverflow@cm4mlops --checkout=555d6b8a42e85c354297330df5ff31bab3d3faa6
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_reference,_sdxl,_pytorch,_cuda,_test,_r4.1-dev_default,_float16,_offline \
@@ -29,6 +29,7 @@ cm run script \
 	--env.CM_MLPERF_MODEL=sdxl \
 	--env.CM_MLPERF_RUN_STYLE=test \
 	--env.CM_MLPERF_SKIP_SUBMISSION_GENERATION=False \
+	--env.CM_DOCKER_PRIVILEGED_MODE=True \
 	--env.CM_MLPERF_BACKEND=pytorch \
 	--env.CM_MLPERF_SUBMISSION_SYSTEM_TYPE=datacenter \
 	--env.CM_MLPERF_CLEAN_ALL=True \
@@ -59,6 +60,7 @@ cm run script \
 	--env.CM_OUTPUT_FOLDER_NAME=test_results \
 	--env.CM_DOCKER_REUSE_EXISTING_CONTAINER=no \
 	--env.CM_DOCKER_DETACHED_MODE=yes \
+	--add_deps_recursive.mlperf-implementation.tags=_branch.dev \
 	--add_deps_recursive.get-mlperf-inference-results-dir.tags=_version.r4_1-dev \
 	--add_deps_recursive.get-mlperf-inference-submission-dir.tags=_version.r4_1-dev \
 	--add_deps_recursive.mlperf-inference-nvidia-scratch-space.tags=_version.r4_1-dev \
@@ -66,8 +68,14 @@ cm run script \
 	--add_deps_recursive.coco2014-preprocessed.tags=_size.50,_with-sample-ids \
 	--add_deps_recursive.coco2014-dataset.tags=_size.50,_with-sample-ids \
 	--add_deps_recursive.nvidia-preprocess-data.extra_cache_tags=scc24-base \
-	--add_deps_recursive.inference-src.tags=_branch.dev \
-	--add_deps_recursive.inference-src.version=custom \
+	--adr.mlperf-implementation.tags=_branch.dev \
+	--adr.get-mlperf-inference-results-dir.tags=_version.r4_1-dev \
+	--adr.get-mlperf-inference-submission-dir.tags=_version.r4_1-dev \
+	--adr.mlperf-inference-nvidia-scratch-space.tags=_version.r4_1-dev \
+	--adr.submission-checker.tags=_short-run \
+	--adr.coco2014-preprocessed.tags=_size.50,_with-sample-ids \
+	--adr.coco2014-dataset.tags=_size.50,_with-sample-ids \
+	--adr.nvidia-preprocess-data.extra_cache_tags=scc24-base \
 	--v=False \
 	--print_env=False \
 	--print_deps=False \
@@ -97,4 +105,4 @@ Model Precision: fp32
 `FID_SCORE`: `237.82579`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `0.382825`
+`Samples per second`: `0.383506`

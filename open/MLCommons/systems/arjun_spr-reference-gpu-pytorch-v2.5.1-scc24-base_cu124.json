@@ -27,11 +27,11 @@
   "hw_notes": "",
   "number_of_nodes": "1",
   "operating_system": "Ubuntu 22.04 (linux-6.2.0-39-generic-glibc2.35)",
-  "other_software_stack": "Python: 3.10.12, LLVM-15.0.6",
+  "other_software_stack": "Python: 3.10.12, LLVM-15.0.6 , CUDA 12.4",
   "status": "available",
   "submitter": "MLCommons",
   "sw_notes": "Automated by MLCommons CM v3.2.6. ",
-  "system_name": "3355bbc3e655",
+  "system_name": "1dc3ae3f2533",
   "system_type": "datacenter",
   "system_type_detail": "edge server"
 }
