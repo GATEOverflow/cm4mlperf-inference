@@ -18,7 +18,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=fed53ef8889585647e75df9d1f07fae97b2250c5
+cm pull repo gateoverflow@cm4mlops --checkout=4b3d2ee9a56d2f88885ace86b1c8f2e94f91ef41
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_reference,_sdxl,_pytorch,_cuda,_test,_r4.1-dev_default,_float16,_offline \
@@ -44,6 +44,7 @@ cm run script \
 	--env.CM_MLPERF_SUBMISSION_GENERATION_STYLE=short \
 	--env.CM_MLPERF_SUT_NAME_RUN_CONFIG_SUFFIX4=scc24-base \
 	--env.CM_DOCKER_IMAGE_NAME=scc24-reference \
+	--env.CM_MLPERF_INFERENCE_MIN_QUERY_COUNT=50 \
 	--env.CM_MLPERF_LOADGEN_ALL_MODES=yes \
 	--env.CM_MLPERF_INFERENCE_SOURCE_VERSION=4.1.23 \
 	--env.CM_MLPERF_LAST_RELEASE=v4.1 \
@@ -96,4 +97,4 @@ Model Precision: fp32
 `FID_SCORE`: `237.82579`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `0.172851`
+`Samples per second`: `0.383178`
