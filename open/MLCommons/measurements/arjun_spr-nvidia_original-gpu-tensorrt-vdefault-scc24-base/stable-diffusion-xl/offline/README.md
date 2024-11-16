@@ -19,7 +19,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo gateoverflow@cm4mlops --checkout=0c68370bc2eabd88241b561bf663d9c166eccd20
+cm pull repo gateoverflow@cm4mlops --checkout=4b3d2ee9a56d2f88885ace86b1c8f2e94f91ef41
 
 cm run script \
 	--tags=app,mlperf,inference,generic,_nvidia,_sdxl,_tensorrt,_test,_r4.1-dev_default,_float16,_offline \
@@ -30,6 +30,7 @@ cm run script \
 	--env.CM_MLPERF_MODEL=sdxl \
 	--env.CM_MLPERF_RUN_STYLE=test \
 	--env.CM_MLPERF_SKIP_SUBMISSION_GENERATION=False \
+	--env.CM_DOCKER_PRIVILEGED_MODE=True \
 	--env.CM_MLPERF_BACKEND=tensorrt \
 	--env.CM_MLPERF_SUBMISSION_SYSTEM_TYPE=datacenter \
 	--env.CM_MLPERF_CLEAN_ALL=True \
@@ -44,7 +45,9 @@ cm run script \
 	--env.CM_MLPERF_SUBMISSION_GENERATION_STYLE=short \
 	--env.CM_MLPERF_SUT_NAME_RUN_CONFIG_SUFFIX4=scc24-base \
 	--env.CM_DOCKER_IMAGE_NAME=scc24-nvidia \
+	--env.CM_MLPERF_INFERENCE_MIN_QUERY_COUNT=50 \
 	--env.CM_MLPERF_LOADGEN_ALL_MODES=yes \
+	--env.CM_MLPERF_INFERENCE_SOURCE_VERSION=4.1.23 \
 	--env.CM_MLPERF_LAST_RELEASE=v4.1 \
 	--env.CM_TMP_CURRENT_PATH=/home/arjun/actions-runner/_work/cm4mlops/cm4mlops \
 	--env.CM_TMP_PIP_VERSION_STRING= \
@@ -92,8 +95,8 @@ Platform: arjun_spr-nvidia_original-gpu-tensorrt-vdefault-scc24-base
 Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `16.68664`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `233.38096`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `16.61569`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `233.52877`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `1.13881`
+`Samples per second`: `1.31313`
