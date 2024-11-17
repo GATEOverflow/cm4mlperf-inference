@@ -1,32 +1,32 @@
-[2024-11-15 19:44:22,014 main.py:229 INFO] Detected system ID: KnownSystem.c6ef2e4d491e
+[2024-11-17 03:27:40,538 main.py:229 INFO] Detected system ID: KnownSystem.Nvidia_3e7073ccc527
 /home/cmuser/.local/lib/python3.8/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
   warnings.warn(_BETA_TRANSFORMS_WARNING)
 /home/cmuser/.local/lib/python3.8/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
   warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-11-15 19:44:23,509 generate_conf_files.py:107 INFO] Generated measurements/ entries for c6ef2e4d491e_TRT/stable-diffusion-xl/Offline
-[2024-11-15 19:44:23,510 __init__.py:46 INFO] Running command: python3 -m code.stable-diffusion-xl.tensorrt.harness --logfile_outdir="/cm-mount/home/arjun/scc_gh_action_results/test_results/c6ef2e4d491e-nvidia_original-gpu-tensorrt-vdefault-scc24-base/stable-diffusion-xl/offline/performance/run_1" --logfile_prefix="mlperf_log_" --performance_sample_count=5000 --test_mode="PerformanceOnly" --gpu_batch_size=2 --mlperf_conf_path="/home/cmuser/CM/repos/local/cache/a4f546e2f5b74593/inference/mlperf.conf" --tensor_path="build/preprocessed_data/coco2014-tokenized-sdxl/5k_dataset_final/" --use_graphs=false --user_conf_path="/home/cmuser/CM/repos/gateoverflow@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/db5e1dd9a9ff438ab4269c5aac2297d1.conf" --gpu_inference_streams=1 --gpu_copy_streams=1 --gpu_engines="./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan,./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan" --scenario Offline --model stable-diffusion-xl
-[2024-11-15 19:44:23,510 __init__.py:53 INFO] Overriding Environment
+[2024-11-17 03:27:42,096 generate_conf_files.py:107 INFO] Generated measurements/ entries for Nvidia_3e7073ccc527_TRT/stable-diffusion-xl/Offline
+[2024-11-17 03:27:42,096 __init__.py:46 INFO] Running command: python3 -m code.stable-diffusion-xl.tensorrt.harness --logfile_outdir="/cm-mount/home/arjun/scc_gh_action_results/test_results/3e7073ccc527-nvidia_original-gpu-tensorrt-vdefault-scc24-base/stable-diffusion-xl/offline/performance/run_1" --logfile_prefix="mlperf_log_" --performance_sample_count=5000 --test_mode="PerformanceOnly" --gpu_batch_size=2 --mlperf_conf_path="/home/cmuser/CM/repos/local/cache/77a3e77f6d3f4334/inference/mlperf.conf" --tensor_path="build/preprocessed_data/coco2014-tokenized-sdxl/5k_dataset_final/" --use_graphs=false --user_conf_path="/home/cmuser/CM/repos/gateoverflow@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/beff2e2d31934754a59c7817a8e6ad9d.conf" --gpu_inference_streams=1 --gpu_copy_streams=1 --gpu_engines="./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan,./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan" --scenario Offline --model stable-diffusion-xl
+[2024-11-17 03:27:42,096 __init__.py:53 INFO] Overriding Environment
 /home/cmuser/.local/lib/python3.8/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
   warnings.warn(_BETA_TRANSFORMS_WARNING)
 /home/cmuser/.local/lib/python3.8/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
   warnings.warn(_BETA_TRANSFORMS_WARNING)
-[2024-11-15 19:44:25,354 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:25,502 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:26,202 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:27,602 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:29,005 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:29,143 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:29,848 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:31,297 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
-[2024-11-15 19:44:32,525 harness.py:207 INFO] Start Warm Up!
-[2024-11-15 19:44:44,377 harness.py:209 INFO] Warm Up Done!
-[2024-11-15 19:44:44,377 harness.py:211 INFO] Start Test!
-[2024-11-15 19:45:22,478 backend.py:801 INFO] [Server] Received 50 total samples
-[2024-11-15 19:45:22,479 backend.py:809 INFO] [Device 0] Reported 26 samples
-[2024-11-15 19:45:22,479 backend.py:809 INFO] [Device 1] Reported 24 samples
-[2024-11-15 19:45:22,479 harness.py:214 INFO] Test Done!
-[2024-11-15 19:45:22,479 harness.py:216 INFO] Destroying SUT...
-[2024-11-15 19:45:22,479 harness.py:219 INFO] Destroying QSL...
+[2024-11-17 03:27:44,175 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:44,390 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:45,507 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:46,975 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:48,460 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:48,601 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:49,360 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:50,882 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
+[2024-11-17 03:27:52,108 harness.py:207 INFO] Start Warm Up!
+[2024-11-17 03:28:04,033 harness.py:209 INFO] Warm Up Done!
+[2024-11-17 03:28:04,033 harness.py:211 INFO] Start Test!
+[2024-11-17 03:28:42,179 backend.py:801 INFO] [Server] Received 50 total samples
+[2024-11-17 03:28:42,179 backend.py:809 INFO] [Device 0] Reported 26 samples
+[2024-11-17 03:28:42,180 backend.py:809 INFO] [Device 1] Reported 24 samples
+[2024-11-17 03:28:42,180 harness.py:214 INFO] Test Done!
+[2024-11-17 03:28:42,180 harness.py:216 INFO] Destroying SUT...
+[2024-11-17 03:28:42,180 harness.py:219 INFO] Destroying QSL...
 benchmark : Benchmark.SDXL
 buffer_manager_thread_count : 0
 data_dir : /home/cmuser/CM/repos/local/cache/e066920512fd47b7/data
@@ -35,20 +35,20 @@ gpu_copy_streams : 1
 gpu_inference_streams : 1
 input_dtype : int32
 input_format : linear
-log_dir : /home/cmuser/CM/repos/local/cache/e0e53f17cf2744e0/repo/closed/NVIDIA/build/logs/2024.11.15-19.44.21
-mlperf_conf_path : /home/cmuser/CM/repos/local/cache/a4f546e2f5b74593/inference/mlperf.conf
+log_dir : /home/cmuser/CM/repos/local/cache/e0e53f17cf2744e0/repo/closed/NVIDIA/build/logs/2024.11.17-03.27.39
+mlperf_conf_path : /home/cmuser/CM/repos/local/cache/77a3e77f6d3f4334/inference/mlperf.conf
 model_path : /home/cmuser/CM/repos/local/cache/e066920512fd47b7/models/SDXL/
 offline_expected_qps : 0.0
 precision : int8
 preprocessed_data_dir : /home/cmuser/CM/repos/local/cache/e066920512fd47b7/preprocessed_data
 scenario : Scenario.Offline
-system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) w7-2495X', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=24, threads_per_core=2): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=197.330052, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=197330052000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=450.0, pci_id='0x268410DE', compute_sm=89): 1, GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=500.0, pci_id='0x268410DE', compute_sm=89): 1})), numa_conf=None, system_id='c6ef2e4d491e')
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) w7-2495X', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=24, threads_per_core=2): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=197.330052, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=197330052000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=450.0, pci_id='0x268410DE', compute_sm=89): 1, GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=500.0, pci_id='0x268410DE', compute_sm=89): 1})), numa_conf=None, system_id='Nvidia_3e7073ccc527')
 tensor_path : build/preprocessed_data/coco2014-tokenized-sdxl/5k_dataset_final/
 test_mode : PerformanceOnly
 use_graphs : False
-user_conf_path : /home/cmuser/CM/repos/gateoverflow@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/db5e1dd9a9ff438ab4269c5aac2297d1.conf
-system_id : c6ef2e4d491e
-config_name : c6ef2e4d491e_stable-diffusion-xl_Offline
+user_conf_path : /home/cmuser/CM/repos/gateoverflow@cm4mlops/script/generate-mlperf-inference-user-conf/tmp/beff2e2d31934754a59c7817a8e6ad9d.conf
+system_id : Nvidia_3e7073ccc527
+config_name : Nvidia_3e7073ccc527_stable-diffusion-xl_Offline
 workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
 optimization_level : plugin-enabled
 num_profiles : 1
@@ -58,16 +58,16 @@ inference_server : custom
 skip_file_checks : False
 power_limit : None
 cpu_freq : None
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
 [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
-[I] Loading bytes from ./build/engines/c6ef2e4d491e/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
-[2024-11-15 19:45:23,021 run_harness.py:166 INFO] Result: result_samples_per_second: 1.31313, Result is VALID
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/Nvidia_3e7073ccc527/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
+[2024-11-17 03:28:42,722 run_harness.py:166 INFO] Result: result_samples_per_second: 1.31214, Result is VALID
  
 ======================== Result summaries: ========================
 
