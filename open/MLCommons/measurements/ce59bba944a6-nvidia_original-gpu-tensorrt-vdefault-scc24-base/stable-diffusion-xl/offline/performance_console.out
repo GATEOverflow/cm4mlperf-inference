@@ -1,0 +1,73 @@
+[2024-12-31 12:25:54,324 main.py:229 INFO] Detected system ID: KnownSystem.ce59bba944a6
+/home/cmuser/.local/lib/python3.8/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/cmuser/.local/lib/python3.8/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-31 12:25:55,692 generate_conf_files.py:107 INFO] Generated measurements/ entries for ce59bba944a6_TRT/stable-diffusion-xl/Offline
+[2024-12-31 12:25:55,692 __init__.py:46 INFO] Running command: python3 -m code.stable-diffusion-xl.tensorrt.harness --logfile_outdir="/cm-mount/home/arjun/scc_gh_action_results/test_results/ce59bba944a6-nvidia_original-gpu-tensorrt-vdefault-scc24-base/stable-diffusion-xl/offline/performance/run_1" --logfile_prefix="mlperf_log_" --performance_sample_count=5000 --test_mode="PerformanceOnly" --gpu_batch_size=2 --mlperf_conf_path="/home/cmuser/CM/repos/local/cache/7f314a33540f461d/inference/mlperf.conf" --tensor_path="build/preprocessed_data/coco2014-tokenized-sdxl/5k_dataset_final/" --use_graphs=false --user_conf_path="/home/cmuser/CM/repos/mlcommons@mlperf-automations/script/generate-mlperf-inference-user-conf/tmp/210a7f3efe4a49a383b3ba4fa7c19c8f.conf" --gpu_inference_streams=1 --gpu_copy_streams=1 --gpu_engines="./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan,./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan,./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan" --scenario Offline --model stable-diffusion-xl
+[2024-12-31 12:25:55,693 __init__.py:53 INFO] Overriding Environment
+/home/cmuser/.local/lib/python3.8/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/home/cmuser/.local/lib/python3.8/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+[2024-12-31 12:25:57,394 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-12-31 12:25:57,528 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-12-31 12:25:58,166 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
+[2024-12-31 12:25:59,513 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
+[2024-12-31 12:26:00,840 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-12-31 12:26:00,961 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan.
+[2024-12-31 12:26:01,601 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan.
+[2024-12-31 12:26:02,946 backend.py:71 INFO] Loading TensorRT engine: ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan.
+[2024-12-31 12:26:04,111 harness.py:207 INFO] Start Warm Up!
+[2024-12-31 12:26:15,865 harness.py:209 INFO] Warm Up Done!
+[2024-12-31 12:26:15,865 harness.py:211 INFO] Start Test!
+[2024-12-31 12:26:53,832 backend.py:801 INFO] [Server] Received 50 total samples
+[2024-12-31 12:26:53,833 backend.py:809 INFO] [Device 0] Reported 26 samples
+[2024-12-31 12:26:53,833 backend.py:809 INFO] [Device 1] Reported 24 samples
+[2024-12-31 12:26:53,833 harness.py:214 INFO] Test Done!
+[2024-12-31 12:26:53,833 harness.py:216 INFO] Destroying SUT...
+[2024-12-31 12:26:53,834 harness.py:219 INFO] Destroying QSL...
+benchmark : Benchmark.SDXL
+buffer_manager_thread_count : 0
+data_dir : /home/cmuser/CM/repos/local/cache/4db00c74da1e44c8/data
+gpu_batch_size : 2
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int32
+input_format : linear
+log_dir : /home/cmuser/CM/repos/local/cache/7c0c2e4c9cc3421e/repo/closed/NVIDIA/build/logs/2024.12.31-12.25.53
+mlperf_conf_path : /home/cmuser/CM/repos/local/cache/7f314a33540f461d/inference/mlperf.conf
+model_path : /home/cmuser/CM/repos/local/cache/4db00c74da1e44c8/models/SDXL/
+offline_expected_qps : 0.0
+precision : int8
+preprocessed_data_dir : /home/cmuser/CM/repos/local/cache/4db00c74da1e44c8/preprocessed_data
+scenario : Scenario.Offline
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) w7-2495X', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=24, threads_per_core=2): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=197.334532, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=197334532000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=450.0, pci_id='0x268410DE', compute_sm=89): 1, GPU(name='NVIDIA GeForce RTX 4090', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=23.98828125, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25757220864), max_power_limit=500.0, pci_id='0x268410DE', compute_sm=89): 1})), numa_conf=None, system_id='ce59bba944a6')
+tensor_path : build/preprocessed_data/coco2014-tokenized-sdxl/5k_dataset_final/
+test_mode : PerformanceOnly
+use_graphs : False
+user_conf_path : /home/cmuser/CM/repos/mlcommons@mlperf-automations/script/generate-mlperf-inference-user-conf/tmp/210a7f3efe4a49a383b3ba4fa7c19c8f.conf
+system_id : ce59bba944a6
+config_name : ce59bba944a6_stable-diffusion-xl_Offline
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+num_profiles : 1
+config_ver : custom_k_99_MaxP
+accuracy_level : 99%
+inference_server : custom
+skip_file_checks : False
+power_limit : None
+cpu_freq : None
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIP-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-CLIPWithProj-Offline-gpu-b2-fp16.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-UNetXL-Offline-gpu-b2-int8.custom_k_99_MaxP.plan
+[I] Loading bytes from ./build/engines/ce59bba944a6/stable-diffusion-xl/Offline/stable-diffusion-xl-VAE-Offline-gpu-b2-fp32.custom_k_99_MaxP.plan
+[2024-12-31 12:26:54,329 run_harness.py:166 INFO] Result: result_samples_per_second: 1.31816, Result is VALID
+ 
+======================== Result summaries: ========================
+
