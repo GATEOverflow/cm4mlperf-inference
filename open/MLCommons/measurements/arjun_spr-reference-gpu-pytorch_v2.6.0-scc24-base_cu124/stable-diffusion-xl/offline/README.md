@@ -16,7 +16,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=4c7402d8d52067a51229c79fa605b7ba6032c10f
+mlc pull repo mlcommons@mlperf-automations --checkout=dce8947b93ecaa1e9d3fea463b8e67d91657ec88
 
 
 ```
@@ -37,6 +37,8 @@ Platform: arjun_spr-reference-gpu-pytorch_v2.6.0-scc24-base_cu124
 Model Precision: fp32
 
 ### Accuracy Results 
+`CLIP_SCORE`: `16.3689`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `237.82579`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `0.384774`
+`Samples per second`: `0.384449`
