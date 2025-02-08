@@ -38,8 +38,8 @@ Platform: arjun_spr-nvidia-gpu-TensorRT-scc24-base
 Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `16.74778`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `233.71855`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `16.72908`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `236.88583`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `1.31417`
+`Samples per second`: `1.31386`
