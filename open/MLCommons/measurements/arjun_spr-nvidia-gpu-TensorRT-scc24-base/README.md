@@ -1,3 +1,3 @@
 | Model               | Scenario   | Accuracy              |   Throughput | Latency (in ms)   |
 |---------------------|------------|-----------------------|--------------|-------------------|
-| stable-diffusion-xl | offline    | (16.66382, 231.92373) |        1.315 | -                 |
+| stable-diffusion-xl | offline    | (16.81226, 232.55426) |        1.318 | -                 |
