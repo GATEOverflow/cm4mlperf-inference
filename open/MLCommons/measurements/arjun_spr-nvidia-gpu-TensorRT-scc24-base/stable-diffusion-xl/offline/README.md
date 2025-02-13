@@ -17,7 +17,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=4be38a9703985e7e5949a74effeeda6b2b8910f3
+mlc pull repo mlcommons@mlperf-automations --checkout=275e911f4d50cb85c8e166305ad009e6b3d6cc62
 
 
 ```
@@ -38,8 +38,8 @@ Platform: arjun_spr-nvidia-gpu-TensorRT-scc24-base
 Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `16.81226`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `232.55426`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `16.50909`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `232.54087`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `1.31839`
+`Samples per second`: `1.32049`
