@@ -212,7 +212,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td></td><td>Tokens/s</td> <td>52.9478</td><td></td><td></td><td></td><td colspan="3"> N/A </td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>CLIP_SCORE: 15.18544, FID_SCORE: 235.69504</td><td>Samples/s</td> <td>0.34572</td><td></td><td></td><td></td><td colspan="3"> N/A </td></table></div></div>
+</tr><tr><td class="model">gptj-99</td><td class="acc-target">ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="accuracy"></td><td class="units">Tokens/s</td> <td class="perf">52.95</td><td></td><td></td><td></td><td class="na" colspan="3"> N/A </td><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="accuracy">CLIP SCORE: 15.18544, FID SCORE: 235.69504</td><td class="units">Samples/s</td> <td class="perf">0.35</td><td></td><td></td><td></td><td class="na" colspan="3"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>CLIP_SCORE: 15.68302, FID_SCORE: 235.19071</td><td>Samples/s</td> <td>1.1417</td></table></div></div>
+</tr><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td class="accuracy">CLIP SCORE: 15.68302, FID SCORE: 235.19071</td><td class="units">Samples/s</td> <td class="perf">1.14</td></table></div></div>
 </div>
 </div>
 </main>
