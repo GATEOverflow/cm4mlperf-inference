@@ -2,10 +2,10 @@ Platform Details
 
 ------------------------------------------------------------
 1. uname -a
-Linux 7b095f3239cd 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Linux 8ea0ec65b03a 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
 ------------------------------------------------------------
 2. w
- 23:19:33 up 13 days, 12:16,  0 users,  load average: 0.88, 0.88, 0.94
+ 09:45:15 up 14 days, 22:41,  0 users,  load average: 0.65, 1.04, 1.18
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 ------------------------------------------------------------
 3. Username
@@ -41,7 +41,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 799.822
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -97,7 +97,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 3209.968
+cpu MHz		: 897.204
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -153,7 +153,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 1800.000
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -209,7 +209,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 801.032
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -265,7 +265,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 3389.375
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -293,7 +293,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 3400.000
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -321,7 +321,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 1803.982
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -377,7 +377,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 1300.000
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -405,7 +405,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 1096.735
+cpu MHz		: 1326.651
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -433,7 +433,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 899.890
+cpu MHz		: 2529.061
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -461,7 +461,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 797.980
+cpu MHz		: 800.116
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -601,7 +601,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 4000.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -629,7 +629,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 2810.804
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -881,7 +881,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 796.761
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -993,7 +993,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 4134.364
+cpu MHz		: 800.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -1161,7 +1161,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 3100.000
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -1245,7 +1245,7 @@ model		: 143
 model name	: Intel(R) Xeon(R) w7-2495X
 stepping	: 8
 microcode	: 0x2b000603
-cpu MHz		: 800.000
+cpu MHz		: 2494.305
 cache size	: 46080 KB
 physical id	: 0
 siblings	: 48
@@ -1424,49 +1424,49 @@ Vulnerability Tsx async abort:        Not affected
 available: 1 nodes (0)
 node 0 cpus: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
 node 0 size: 192709 MB
-node 0 free: 89885 MB
+node 0 free: 52491 MB
 node distances:
 node   0 
   0:  10 
 ------------------------------------------------------------
 9. /proc/meminfo
 MemTotal:       197334528 kB
-MemFree:        92042900 kB
-MemAvailable:   193163492 kB
-Buffers:          212952 kB
-Cached:         100331364 kB
-SwapCached:        38084 kB
-Active:          9250336 kB
-Inactive:       91723460 kB
-Active(anon):     404268 kB
-Inactive(anon):    66196 kB
-Active(file):    8846068 kB
-Inactive(file): 91657264 kB
+MemFree:        53751280 kB
+MemAvailable:   193001424 kB
+Buffers:          273776 kB
+Cached:         137152596 kB
+SwapCached:        43336 kB
+Active:         34443000 kB
+Inactive:       103423832 kB
+Active(anon):     408420 kB
+Inactive(anon):    74864 kB
+Active(file):   34034580 kB
+Inactive(file): 103348968 kB
 Unevictable:        6160 kB
 Mlocked:               0 kB
 SwapTotal:       8388604 kB
-SwapFree:        7774008 kB
+SwapFree:        7765048 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:             21444 kB
+Dirty:             21344 kB
 Writeback:             0 kB
-AnonPages:        427252 kB
-Mapped:           354024 kB
-Shmem:             40968 kB
-KReclaimable:    2389552 kB
-Slab:            3173616 kB
-SReclaimable:    2389552 kB
-SUnreclaim:       784064 kB
-KernelStack:       19456 kB
-PageTables:        27176 kB
+AnonPages:        441340 kB
+Mapped:           334056 kB
+Shmem:             42824 kB
+KReclaimable:    3638888 kB
+Slab:            4631196 kB
+SReclaimable:    3638888 kB
+SUnreclaim:       992308 kB
+KernelStack:       19616 kB
+PageTables:        27660 kB
 SecPageTables:         0 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    107055868 kB
-Committed_AS:    6654388 kB
+Committed_AS:    6670600 kB
 VmallocTotal:   13743895347199 kB
-VmallocUsed:      154684 kB
+VmallocUsed:      154748 kB
 VmallocChunk:          0 kB
 Percpu:           106944 kB
 HardwareCorrupted:    56 kB
@@ -1482,8 +1482,8 @@ HugePages_Rsvd:        0
 HugePages_Surp:        0
 Hugepagesize:       2048 kB
 Hugetlb:               0 kB
-DirectMap4k:    50658916 kB
-DirectMap2M:    147001344 kB
+DirectMap4k:    53145188 kB
+DirectMap2M:    144515072 kB
 DirectMap1G:     5242880 kB
 ------------------------------------------------------------
 10. who -r
@@ -1594,16 +1594,16 @@ dev.tty.ldisc_autoload = 1
 dev.tty.legacy_tiocsti = 0
 fs.aio-max-nr = 65536
 fs.aio-nr = 0
-fs.dentry-state = 1073865	977560	45	0	586656	0
+fs.dentry-state = 1106046	1044027	45	0	667960	0
 fs.dir-notify-enable = 1
 fs.epoll.max_user_watches = 43912503
 fs.fanotify.max_queued_events = 16384
 fs.fanotify.max_user_groups = 128
 fs.fanotify.max_user_marks = 1048576
 fs.file-max = 9223372036854775807
-fs.file-nr = 8960	0	9223372036854775807
-fs.inode-nr = 493464	73256
-fs.inode-state = 493464	73256	0	0	0	0	0
+fs.file-nr = 9152	0	9223372036854775807
+fs.inode-nr = 468289	81477
+fs.inode-state = 468289	81477	0	0	0	0	0
 fs.inotify.max_queued_events = 16384
 fs.inotify.max_user_instances = 128
 fs.inotify.max_user_watches = 65536
@@ -1631,7 +1631,7 @@ fs.quota.drops = 0
 fs.quota.free_dquots = 0
 fs.quota.lookups = 0
 fs.quota.reads = 0
-fs.quota.syncs = 978
+fs.quota.syncs = 1088
 fs.quota.writes = 0
 fs.suid_dumpable = 2
 fs.verity.require_signatures = 0
@@ -1658,7 +1658,7 @@ kernel.ftrace_dump_on_oops = 0
 kernel.ftrace_enabled = 1
 kernel.hardlockup_all_cpu_backtrace = 0
 kernel.hardlockup_panic = 0
-kernel.hostname = 7b095f3239cd
+kernel.hostname = 8ea0ec65b03a
 kernel.hotplug = 
 kernel.hung_task_all_cpu_backtrace = 0
 kernel.hung_task_check_count = 4194304
@@ -1690,7 +1690,7 @@ kernel.msgmnb = 16384
 kernel.msgmni = 32000
 kernel.ngroups_max = 65536
 kernel.nmi_watchdog = 1
-kernel.ns_last_pid = 8562
+kernel.ns_last_pid = 8560
 kernel.numa_balancing = 0
 kernel.numa_balancing_promote_rate_limit_MBps = 65536
 kernel.oops_all_cpu_backtrace = 0
@@ -1727,7 +1727,7 @@ kernel.random.boot_id = 266aa90c-a7a3-400b-90af-2740886ad693
 kernel.random.entropy_avail = 256
 kernel.random.poolsize = 256
 kernel.random.urandom_min_reseed_secs = 60
-kernel.random.uuid = db2d1dac-ef17-4230-ae1e-370dd9259aea
+kernel.random.uuid = 6d7764ec-32a1-44ea-853f-8f7c821cbdaa
 kernel.random.write_wakeup_threshold = 256
 kernel.randomize_va_space = 2
 kernel.real-root-dev = 0
