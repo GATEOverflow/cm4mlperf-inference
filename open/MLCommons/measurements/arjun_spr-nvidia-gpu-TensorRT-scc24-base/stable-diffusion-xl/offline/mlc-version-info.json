@@ -147,7 +147,7 @@
         "script_tags": "detect-os,detect,os,info",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -167,7 +167,7 @@
         "script_tags": "detect,cpu,detect-cpu,info",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -177,7 +177,7 @@
         "script_tags": "get,sys-utils-cm,sys-utils-mlc",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -187,7 +187,7 @@
         "script_tags": "get,mlperf,inference,nvidia,scratch,space",
         "script_variations": "version.4_1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -207,7 +207,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "mlperf_logging",
         "version": "4.1.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -217,7 +217,7 @@
         "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
         "script_variations": "",
         "version": "master-git-32f9e842187b97b8c2b08f7805f5c0dac39bcf65",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -227,7 +227,7 @@
         "script_tags": "get,nvidia,mlperf,inference,common-code",
         "script_variations": "mlcommons",
         "version": "r4.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -307,7 +307,7 @@
         "script_tags": "generate,mlperf,inference,user-conf,inference-user-conf",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -327,7 +327,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.pycuda",
         "version": "2022.2.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -337,7 +337,7 @@
         "script_tags": "get,cuda,cuda-compiler,cuda-lib,toolkit,lib,nvcc,get-nvcc,get-cuda,46d133d9ef92422d",
         "script_variations": "cudnn",
         "version": "12.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -347,7 +347,7 @@
         "script_tags": "get,tensorrt,nvidia",
         "script_variations": "",
         "version": "vdetected",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -987,7 +987,7 @@
         "script_tags": "build,mlcommons,mlperf,inference,inference-server,server,nvidia-harness,nvidia",
         "script_variations": "mlcommons",
         "version": "r4.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -997,7 +997,7 @@
         "script_tags": "detect-os,detect,os,info",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1017,7 +1017,7 @@
         "script_tags": "detect,cpu,detect-cpu,info",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1027,7 +1027,7 @@
         "script_tags": "get,sys-utils-cm,sys-utils-mlc",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1037,7 +1037,7 @@
         "script_tags": "get,mlperf,inference,nvidia,scratch,space",
         "script_variations": "version.4_1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1057,7 +1057,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "mlperf_logging",
         "version": "4.1.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1067,7 +1067,7 @@
         "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
         "script_variations": "",
         "version": "master-git-32f9e842187b97b8c2b08f7805f5c0dac39bcf65",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1077,7 +1077,7 @@
         "script_tags": "get,nvidia,mlperf,inference,common-code",
         "script_variations": "mlcommons",
         "version": "r4.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1097,7 +1097,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.pycuda",
         "version": "2022.2.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1107,7 +1107,7 @@
         "script_tags": "get,cuda,cuda-compiler,cuda-lib,toolkit,lib,nvcc,get-nvcc,get-cuda,46d133d9ef92422d",
         "script_variations": "cudnn",
         "version": "12.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1117,7 +1117,7 @@
         "script_tags": "get,tensorrt,nvidia",
         "script_variations": "",
         "version": "vdetected",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1127,7 +1127,7 @@
         "script_tags": "build,mlcommons,mlperf,inference,inference-server,server,nvidia-harness,nvidia",
         "script_variations": "mlcommons",
         "version": "r4.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -1617,7 +1617,7 @@
         "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
         "script_variations": "preprocess_data,sdxl,tensorrt,cuda,v4.1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2107,7 +2107,7 @@
         "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
         "script_variations": "download_model,sdxl,tensorrt,cuda,v4.1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2127,7 +2127,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.diffusers",
         "version": "0.30.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2147,7 +2147,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.transformers",
         "version": "4.46.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2167,7 +2167,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.accelerate",
         "version": "1.0.1",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2187,7 +2187,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.torchmetrics",
         "version": "1.5.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2207,7 +2207,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.torch-fidelity",
         "version": "0.3.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2227,7 +2227,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.open_clip_torch",
         "version": "2.30.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2247,7 +2247,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.opencv-python",
         "version": "4.11.0.86",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2267,7 +2267,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.polygraphy",
         "version": "0.49.14",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2287,7 +2287,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.nvtx",
         "version": "0.2.10",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2307,7 +2307,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.cuda-python",
         "version": "12.3.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2327,7 +2327,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.ninja",
         "version": "1.11.1.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2347,7 +2347,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.onnxruntime",
         "version": "1.16.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2367,7 +2367,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.colored",
         "version": "1.4.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2387,7 +2387,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.nvidia-ammo",
         "version": "0.7.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2407,7 +2407,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.optimum",
         "version": "1.23.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2427,7 +2427,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.onnx",
         "version": "1.14.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2447,7 +2447,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.scipy",
         "version": "1.10.1",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2467,7 +2467,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.numpy",
         "version": "1.22.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
@@ -2477,17 +2477,17 @@
         "script_tags": "save,mlperf,inference,implementation,state",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev )"
       }
     },
     {
-      "reproduce,mlperf,inference,nvidia,harness,_build_engine,_sdxl,_offline,_tensorrt,_cuda,_batch_size.2,_v4.1-dev": {
+      "reproduce,mlperf,inference,nvidia,harness,_build_engine,_sdxl,_tensorrt,_cuda,_offline,_batch_size.2,_v4.1-dev": {
         "script_uid": "bc3b17fb430f4732",
         "script_alias": "app-mlperf-inference-nvidia",
         "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
-        "script_variations": "build_engine,sdxl,offline,tensorrt,cuda,batch_size.2,v4.1-dev",
+        "script_variations": "build_engine,sdxl,tensorrt,cuda,offline,batch_size.2,v4.1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2497,7 +2497,7 @@
         "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
         "script_variations": "preprocess_data,sdxl,tensorrt,cuda,v4.1-dev",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2517,7 +2517,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.diffusers",
         "version": "0.30.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2537,7 +2537,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.transformers",
         "version": "4.46.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2557,7 +2557,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.accelerate",
         "version": "1.0.1",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2577,7 +2577,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.torchmetrics",
         "version": "1.5.2",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2597,7 +2597,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.torch-fidelity",
         "version": "0.3.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2617,7 +2617,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.open_clip_torch",
         "version": "2.30.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2637,7 +2637,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.opencv-python",
         "version": "4.11.0.86",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2657,7 +2657,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.polygraphy",
         "version": "0.49.14",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.nvtx",
         "version": "0.2.10",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2697,7 +2697,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.cuda-python",
         "version": "12.3.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2717,7 +2717,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.ninja",
         "version": "1.11.1.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2737,7 +2737,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.onnxruntime",
         "version": "1.16.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2757,7 +2757,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.colored",
         "version": "1.4.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2777,7 +2777,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.nvidia-ammo",
         "version": "0.7.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2797,7 +2797,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.optimum",
         "version": "1.23.3",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2817,7 +2817,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.onnx",
         "version": "1.14.0",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2837,7 +2837,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.scipy",
         "version": "1.10.1",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2857,7 +2857,7 @@
         "script_tags": "get,install,generic,pip-package,generic-python-lib",
         "script_variations": "package.numpy",
         "version": "1.22.4",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     },
     {
@@ -2897,7 +2897,7 @@
         "script_tags": "mlperf,benchmark-mlperf",
         "script_variations": "",
         "version": "",
-        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_offline,_tensorrt,_cuda,_gpu_memory.24 )"
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_sdxl,_tensorrt,_cuda,_offline,_gpu_memory.24 )"
       }
     }
   ]
