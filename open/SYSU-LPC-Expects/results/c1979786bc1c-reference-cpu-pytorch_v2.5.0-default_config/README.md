@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/SYSU-LPC-Expects/code" class="button">Code</a>
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/SYSU-LPC-Expects/results/c1979786bc1c-reference-cpu-pytorch_v2.5.0-default_config" class="button">Result Logs</a>

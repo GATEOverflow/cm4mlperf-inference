@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/Dreambrook_Team/code" class="button">Code</a>
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/Dreambrook_Team/results/0e7e43cc4195-reference-gpu-pytorch-cu124" class="button">Result Logs</a>

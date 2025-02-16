@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/NTUHPC/code" class="button">Code</a>
 <a href="https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/NTUHPC/results/8297ae0eca20-nvidia-gpu-TensorRT-scc24-main" class="button">Result Logs</a>
